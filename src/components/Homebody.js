@@ -8,8 +8,8 @@ import "./homebody.css"
 function Homebody() {
   const [data,setData] =useState([])
   useEffect(()=>{
-   fetch("https://backend-instaclone-n9fo.onrender.com/allpost")
-   //fetch("https://mini-backend-insta.onrender.com/allpost")
+   //fetch("https://backend-instaclone-n9fo.onrender.com/allpost")
+   fetch("https://mini-backend-insta.onrender.com/allpost")
     .then(res=>res.json())
     .then(result=> setData(result))
 })
