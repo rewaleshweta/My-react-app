@@ -1,0 +1,46 @@
+body{
+    
+    background-color: floralwhite;
+}
+
+.landingpage{
+    height:450px;
+    width:1000px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 200px;
+    
+}
+.welcome{
+    height: 350px;
+    width: 460px;
+    border: 2px solid rgb(164, 161, 161);
+    border-radius: 10px;
+    text-align: center;
+    background-color: beige;
+}
+.welcome h1{
+    font-size: 2.8em;
+    color: brown;
+}
+
+.welcomeimage{
+    height: 350px;
+    width: 460px;
+    border: 2px solid black;
+}
+.welcome button{
+    font-size: 1.3em;
+    padding: 8px 15px;
+    border-radius: 8px;
+
+}
+.welcome button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+
+
+}
+.navbar .navheading{
+    margin-left: 20px;
+}
+.navheading img{
+margin-left: 80px;
+ 
+}
+.postimg img{
+    margin-right: 80px;
+}
+.navheading{
+    display:flex;
+   
+justify-content: center;
+align-items: center;
+    
+}
+.postimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
